@@ -35,6 +35,20 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.INTEGER,
       allowNull: false
     },
+    countryCode: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    phoneNumber: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    latitude: {
+      type: DataTypes.STRING
+    },
+    longitude: {
+      type: DataTypes.STRING
+    },
     youtube: {
       type: DataTypes.STRING
     },

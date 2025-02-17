@@ -19,7 +19,7 @@ module.exports = {
         unique: true
       },
       age: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
         allowNull: false
       },
       gender: {
@@ -27,8 +27,22 @@ module.exports = {
         allowNull: false
       },
       pincode: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
         allowNull: false
+      },
+      countryCode: {
+        type: Sequelize.STRING,
+        allowNull: false
+      },
+      phoneNumber: {
+        type: Sequelize.STRING,
+        allowNull: false
+      },
+      latitude: {
+        type: Sequelize.STRING,
+      },
+      longitude: {
+        type: Sequelize.STRING,
       },
       youtube: {
         type: Sequelize.STRING
